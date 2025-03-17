@@ -1,0 +1,20 @@
+{
+  "server": {
+    "host": "wg.example.com",
+    "port": "51820",
+    "dns": "10.20.30.40, local.domain",
+    "subnet": "10.2.3.{address}/24",
+    "public_key": "7hYk1e5dX/lpzlto9m2RGx5O86MtryOhgBNYR7EufEg="
+  },
+  "client": [
+    {
+      "name": "client1",
+      "private_key": "hDjD6baD5AWNVAJ2J58Lld0JynXLegBClHP6sxjtgKg=",
+      "address": "3"
+    },
+    {
+      "name": "client2",
+      "address": "3"
+    }
+  ]
+}
